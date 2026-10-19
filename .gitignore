@@ -62,8 +62,7 @@ data/*
 # ------------------------------------------------------------
 outputs/*
 !outputs/smoke/
-!outputs/s
-moke/**
+!outputs/smoke/**
 !outputs/umi_transfer/
 !outputs/umi_transfer/**
 
