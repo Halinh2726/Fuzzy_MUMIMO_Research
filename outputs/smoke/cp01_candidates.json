@@ -1,0 +1,336 @@
+{
+  "signature": "0f6e477596d04e9916cf8d65ebe4a8afcbeb4b4e64976c4447d5855950c7ac70",
+  "qref": 2.4017329151664164,
+  "methods": {
+    "gaussian": {
+      "selected": 0,
+      "eligible": true,
+      "candidates": [
+        {
+          "candidate": 0,
+          "params": {
+            "qgauss": 2.4017329151664164
+          },
+          "eff": 0.0,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.4427703862609205e-09,
+          "power_common": 4.4427703862609205e-09,
+          "n_common": 5
+        }
+      ]
+    },
+    "fixed": {
+      "selected": 4,
+      "eligible": true,
+      "candidates": [
+        {
+          "candidate": 0,
+          "params": {
+            "qfixed": 0.45
+          },
+          "eff": 0.6399999999999999,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.86130137333848e-09,
+          "power_common": 3.86130137333848e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 1,
+          "params": {
+            "qfixed": 0.65
+          },
+          "eff": 0.47000000000000003,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.90809805035261e-09,
+          "power_common": 3.90809805035261e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 2,
+          "params": {
+            "qfixed": 0.85
+          },
+          "eff": 0.3,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.95736218995508e-09,
+          "power_common": 3.95736218995508e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 3,
+          "params": {
+            "qfixed": 1.05
+          },
+          "eff": 0.16,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.009242361766758e-09,
+          "power_common": 4.009242361766758e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 4,
+          "params": {
+            "qfixed": 1.25
+          },
+          "eff": 0.08,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.063900778290415e-09,
+          "power_common": 4.063900778290415e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 5,
+          "params": {
+            "qfixed": 1.45
+          },
+          "eff": 0.030000000000000006,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.121514852179921e-09,
+          "power_common": 4.121514852179921e-09,
+          "n_common": 5
+        }
+      ]
+    },
+    "threshold": {
+      "selected": 1,
+      "eligible": true,
+      "candidates": [
+        {
+          "candidate": 0,
+          "params": {
+            "qlo": 0.45,
+            "qhi": 0.8
+          },
+          "eff": 0.32999999999999996,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.944806927557568e-09,
+          "power_common": 3.944806927557568e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 1,
+          "params": {
+            "qlo": 0.45,
+            "qhi": 1.15
+          },
+          "eff": 0.1,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.0362135770899715e-09,
+          "power_common": 4.0362135770899715e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 2,
+          "params": {
+            "qlo": 0.65,
+            "qhi": 1.0
+          },
+          "eff": 0.18,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.996018441860762e-09,
+          "power_common": 3.996018441860762e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 3,
+          "params": {
+            "qlo": 0.65,
+            "qhi": 1.35
+          },
+          "eff": 0.05,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.0923266290210075e-09,
+          "power_common": 4.0923266290210075e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 4,
+          "params": {
+            "qlo": 0.85,
+            "qhi": 1.2
+          },
+          "eff": 0.1,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.0499662871120635e-09,
+          "power_common": 4.0499662871120635e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 5,
+          "params": {
+            "qlo": 0.85,
+            "qhi": 1.5499999999999998
+          },
+          "eff": 0.01,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.1514902913316354e-09,
+          "power_common": 4.1514902913316354e-09,
+          "n_common": 5
+        }
+      ]
+    },
+    "sugeno": {
+      "selected": 5,
+      "eligible": false,
+      "candidates": [
+        {
+          "candidate": 0,
+          "params": {
+            "rules": [
+              0.45,
+              0.55,
+              0.65,
+              0.65,
+              0.75,
+              0.8500000000000001,
+              0.8500000000000001,
+              0.9500000000000001,
+              1.05
+            ],
+            "family": "rise_with_coupling",
+            "qsmall": 0.45
+          },
+          "eff": 0.5700000000000001,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.879394341713796e-09,
+          "power_common": 3.879394341713796e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 1,
+          "params": {
+            "rules": [
+              0.65,
+              0.55,
+              0.45,
+              0.8500000000000001,
+              0.75,
+              0.65,
+              1.05,
+              0.9500000000000001,
+              0.8500000000000001
+            ],
+            "family": "fall_with_coupling",
+            "qsmall": 0.45
+          },
+          "eff": 0.43,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.919052148989719e-09,
+          "power_common": 3.919052148989719e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 2,
+          "params": {
+            "rules": [
+              0.65,
+              0.75,
+              0.8500000000000001,
+              0.8500000000000001,
+              0.9500000000000001,
+              1.05,
+              1.05,
+              1.1500000000000001,
+              1.25
+            ],
+            "family": "rise_with_coupling",
+            "qsmall": 0.65
+          },
+          "eff": 0.38999999999999996,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.927147720536734e-09,
+          "power_common": 3.927147720536734e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 3,
+          "params": {
+            "rules": [
+              0.8500000000000001,
+              0.75,
+              0.65,
+              1.05,
+              0.9500000000000001,
+              0.8500000000000001,
+              1.25,
+              1.1500000000000001,
+              1.05
+            ],
+            "family": "fall_with_coupling",
+            "qsmall": 0.65
+          },
+          "eff": 0.25999999999999995,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.968897699359231e-09,
+          "power_common": 3.968897699359231e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 4,
+          "params": {
+            "rules": [
+              0.85,
+              0.95,
+              1.05,
+              1.05,
+              1.1500000000000001,
+              1.25,
+              1.25,
+              1.35,
+              1.45
+            ],
+            "family": "rise_with_coupling",
+            "qsmall": 0.85
+          },
+          "eff": 0.24,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 3.977426142650091e-09,
+          "power_common": 3.977426142650091e-09,
+          "n_common": 5
+        },
+        {
+          "candidate": 5,
+          "params": {
+            "rules": [
+              1.05,
+              0.95,
+              0.85,
+              1.25,
+              1.1500000000000001,
+              1.05,
+              1.45,
+              1.35,
+              1.25
+            ],
+            "family": "fall_with_coupling",
+            "qsmall": 0.85
+          },
+          "eff": 0.15000000000000002,
+          "feasible": 5,
+          "n": 5,
+          "power_all_feasible": 4.021395058485958e-09,
+          "power_common": 4.021395058485958e-09,
+          "n_common": 5
+        }
+      ]
+    }
+  }
+}

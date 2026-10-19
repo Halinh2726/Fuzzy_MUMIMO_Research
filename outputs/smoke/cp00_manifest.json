@@ -1,0 +1,26 @@
+{
+  "signature": "0f6e477596d04e9916cf8d65ebe4a8afcbeb4b4e64976c4447d5855950c7ac70",
+  "dataset_path": "/home/claude/Fuzzy_MUMIMO_Research/data/synthetic_smoke.npz",
+  "code_sha256": "e9671512fd1eb2f9c30524a7d84bfd4def257832bab411144af34b8d7da2eb84",
+  "dataset_sha256": "a5c6f02f02cd8da70937403e2bf1de65b50c029494f5457147ae778f4a8ae64d",
+  "settings": {
+    "M": 8,
+    "K": 4,
+    "sigma_rel": 0.04,
+    "sinr_db": 6.0,
+    "pmax": 1.0,
+    "eps": 0.05,
+    "select_target": 0.1,
+    "seed": 20261019,
+    "n_mc": 20,
+    "limit": 5,
+    "noise_w": 1e-09,
+    "frozen_from_sha256": ""
+  },
+  "n": 120,
+  "group_counts": [
+    70,
+    20,
+    30
+  ]
+}

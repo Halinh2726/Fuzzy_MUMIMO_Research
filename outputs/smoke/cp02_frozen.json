@@ -1,0 +1,98 @@
+{
+  "signature": "0f6e477596d04e9916cf8d65ebe4a8afcbeb4b4e64976c4447d5855950c7ac70",
+  "physical": {
+    "M": 8,
+    "K": 4,
+    "sigma_rel": 0.04,
+    "sinr_db": 6.0,
+    "eps": 0.05
+  },
+  "selected": {
+    "params": {
+      "qref": 2.4017329151664164,
+      "qgauss": 2.4017329151664164,
+      "qfixed": 1.25,
+      "qlo": 0.45,
+      "qhi": 1.15,
+      "rules": [
+        1.05,
+        0.95,
+        0.85,
+        1.25,
+        1.1500000000000001,
+        1.05,
+        1.45,
+        1.35,
+        1.25
+      ]
+    },
+    "per_method": {
+      "gaussian": {
+        "candidate": 0,
+        "params": {
+          "qgauss": 2.4017329151664164
+        },
+        "eff": 0.0,
+        "feasible": 5,
+        "n": 5,
+        "power_all_feasible": 4.4427703862609205e-09,
+        "power_common": 4.4427703862609205e-09,
+        "n_common": 5,
+        "eligible": true
+      },
+      "fixed": {
+        "candidate": 4,
+        "params": {
+          "qfixed": 1.25
+        },
+        "eff": 0.08,
+        "feasible": 5,
+        "n": 5,
+        "power_all_feasible": 4.063900778290415e-09,
+        "power_common": 4.063900778290415e-09,
+        "n_common": 5,
+        "eligible": true
+      },
+      "threshold": {
+        "candidate": 1,
+        "params": {
+          "qlo": 0.45,
+          "qhi": 1.15
+        },
+        "eff": 0.1,
+        "feasible": 5,
+        "n": 5,
+        "power_all_feasible": 4.0362135770899715e-09,
+        "power_common": 4.0362135770899715e-09,
+        "n_common": 5,
+        "eligible": true
+      },
+      "sugeno": {
+        "candidate": 5,
+        "params": {
+          "rules": [
+            1.05,
+            0.95,
+            0.85,
+            1.25,
+            1.1500000000000001,
+            1.05,
+            1.45,
+            1.35,
+            1.25
+          ],
+          "family": "fall_with_coupling",
+          "qsmall": 0.85
+        },
+        "eff": 0.15000000000000002,
+        "feasible": 5,
+        "n": 5,
+        "power_all_feasible": 4.021395058485958e-09,
+        "power_common": 4.021395058485958e-09,
+        "n_common": 5,
+        "eligible": false
+      }
+    }
+  },
+  "criterion": "per method: validation effective failure <= 0.1, then minimum mean power on the common feasible set of eligible candidates; fallback minimum effective failure"
+}
